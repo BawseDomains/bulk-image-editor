@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { Toaster } from 'react-hot-toast';
-import Uploader from './components/Uploader';
-import RenamePanel from './components/RenamePanel';
+import Uploader from './components/Uploader.jsx';
+import RenamePanel from "./components/RenamePanel";
 import ResizePanel from './components/ResizePanel.jsx';
-import Queue from './components/Queue';
-import Gallery from './components/Gallery';
-import Download from './components/Download';
-import useDarkMode from './hooks/useDarkMode';
+import Queue from './components/Queue.jsx';
+import Gallery from './components/Gallery.jsx';
+import Download from './components/Download.jsx';
+import useDarkMode from './hooks/useDarkMode.js';
 
 export default function App() {
   const [images, setImages] = useState([]);
